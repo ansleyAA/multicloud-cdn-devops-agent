@@ -11,9 +11,9 @@ Troubleshoot a multicloud CDN distribution using AWS DevOps Agent — a frontier
 | **OS Platform** | Linux Ubuntu on WSL | Development environment |
 | **AI Development** | Kiro CLI (AI Agent) | IaC code generation, architecture design, and troubleshooting |
 | **Infrastructure as Code** | Terraform | Multicloud resource provisioning |
+| **CDN** | Amazon CloudFront | Global content delivery with edge caching |
 | **Primary Origin** | Amazon S3 | Object storage for static assets |
 | **Failover Origin** | Azure Blob Storage (GRS) | Cross-cloud redundancy |
-| **CDN** | Amazon CloudFront | Global content delivery with edge caching |
 | **Monitoring** | Amazon CloudWatch | Metrics, alarms, and observability |
 | **Notifications** | Amazon SNS | Alert routing to email/integrations |
 | **AI Operations** | AWS DevOps Agent | Autonomous incident investigation and remediation |
