@@ -18,6 +18,7 @@ Troubleshoot a multicloud CDN distribution using AWS DevOps Agent — a frontier
 | **Infrastructure as Code** | Terraform | Multicloud resource provisioning |
 | **CLI Tools** | AWS CLI, Azure CLI, GitHub CLI | Deployment and automation |
 | **Scripting** | Bash | Chaos testing and DR simulation |
+| **AI Development** | Kiro (AI Agent) | IaC code generation, architecture design, and troubleshooting |
 
 ---
 
