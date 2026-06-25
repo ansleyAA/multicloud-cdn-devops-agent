@@ -4,6 +4,23 @@ Troubleshoot a multicloud CDN distribution using AWS DevOps Agent — a frontier
 
 ![Architecture](docs/architecture.png)
 
+## Technology Stack
+
+| Category | Technology | Purpose |
+|----------|-----------|---------|
+| **CDN** | Amazon CloudFront | Global content delivery with edge caching |
+| **Primary Origin** | Amazon S3 | Object storage for static assets |
+| **Failover Origin** | Azure Blob Storage (GRS) | Cross-cloud redundancy |
+| **AI Operations** | AWS DevOps Agent | Autonomous incident investigation and remediation |
+| **Monitoring** | Amazon CloudWatch | Metrics, alarms, and observability |
+| **Notifications** | Amazon SNS | Alert routing to email/integrations |
+| **Identity Federation** | AWS IAM + Azure Entra ID (OIDC) | Cross-cloud authentication for DevOps Agent |
+| **Infrastructure as Code** | Terraform | Multicloud resource provisioning |
+| **CLI Tools** | AWS CLI, Azure CLI, GitHub CLI | Deployment and automation |
+| **Scripting** | Bash | Chaos testing and DR simulation |
+
+---
+
 ## Architecture
 
 ```
